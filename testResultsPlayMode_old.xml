@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2022-09-18 21:18:21Z" end-time="2022-09-18 21:18:31Z" duration="9.5386175">
+  <test-suite type="TestSuite" id="1000" name="MeetAndGreet_FedericoGobbato" fullname="MeetAndGreet_FedericoGobbato" runstate="Runnable" testcasecount="3" result="Passed" start-time="2022-09-18 21:18:21Z" end-time="2022-09-18 21:18:31Z" duration="9.538618" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1007" name="PlayMode.dll" fullname="X:/Unity/MeetAndGreet_FedericoGobbato/Library/ScriptAssemblies/PlayMode.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2022-09-18 21:18:21Z" end-time="2022-09-18 21:18:31Z" duration="9.509473" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="4524" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="TestHitEnemy" fullname="TestHitEnemy" classname="TestHitEnemy" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-09-18 21:18:21Z" end-time="2022-09-18 21:18:26Z" duration="4.759534" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="Test_PlayerHealthOnHitEnemy" fullname="TestHitEnemy.Test_PlayerHealthOnHitEnemy" methodname="Test_PlayerHealthOnHitEnemy" classname="TestHitEnemy" runstate="Runnable" seed="235063150" result="Passed" start-time="2022-09-18 21:18:21Z" end-time="2022-09-18 21:18:26Z" duration="4.743144" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1003" name="TestPlayerHealth" fullname="TestPlayerHealth" classname="TestPlayerHealth" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-09-18 21:18:26Z" end-time="2022-09-18 21:18:26Z" duration="0.338186" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1004" name="Test_CurrentPlayerHealth" fullname="TestPlayerHealth.Test_CurrentPlayerHealth" methodname="Test_CurrentPlayerHealth" classname="TestPlayerHealth" runstate="Runnable" seed="1710137561" result="Passed" start-time="2022-09-18 21:18:26Z" end-time="2022-09-18 21:18:26Z" duration="0.332438" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1005" name="TestPlayerInteractions" fullname="TestPlayerInteractions" classname="TestPlayerInteractions" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-09-18 21:18:26Z" end-time="2022-09-18 21:18:31Z" duration="4.402242" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1006" name="Test_CollectToken" fullname="TestPlayerInteractions.Test_CollectToken" methodname="Test_CollectToken" classname="TestPlayerInteractions" runstate="Runnable" seed="1587419412" result="Passed" start-time="2022-09-18 21:18:26Z" end-time="2022-09-18 21:18:31Z" duration="4.397613" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

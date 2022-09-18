@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2022-09-18 21:17:45Z" end-time="2022-09-18 21:17:45Z" duration="0.0667895">
+  <test-suite type="TestSuite" id="1008" name="MeetAndGreet_FedericoGobbato" fullname="MeetAndGreet_FedericoGobbato" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2022-09-18 21:17:45Z" end-time="2022-09-18 21:17:45Z" duration="0.066790" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1011" name="EditMode.dll" fullname="X:/Unity/MeetAndGreet_FedericoGobbato/Library/ScriptAssemblies/EditMode.dll" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2022-09-18 21:17:45Z" end-time="2022-09-18 21:17:45Z" duration="0.031865" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32548" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1009" name="TestInteractables" fullname="TestInteractables" classname="TestInteractables" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2022-09-18 21:17:45Z" end-time="2022-09-18 21:17:45Z" duration="0.030347" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1010" name="Test_DistanceInteractables" fullname="TestInteractables.Test_DistanceInteractables" methodname="Test_DistanceInteractables" classname="TestInteractables" runstate="Runnable" seed="1803452965" result="Failed" start-time="2022-09-18 21:17:45Z" end-time="2022-09-18 21:17:45Z" duration="0.016652" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[Some interactables are too close. (see log)]]></message>
+            <stack-trace><![CDATA[at TestInteractables.Test_DistanceInteractables () [0x0010d] in X:\Unity\MeetAndGreet_FedericoGobbato\Assets\Tests\EditMode\TestInteractables.cs:44
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[Interactable at pos (69.60, 4.18, 0.00) and one at pos (70.07, 4.18, 0.00) are too close. Distance: 0.4700012
+Interactable at pos (46.40, 6.67, 0.00) and one at pos (46.40, 6.20, 0.00) are too close. Distance: 0.4700003
+Interactable at pos (48.01, 6.67, 0.00) and one at pos (48.01, 6.20, 0.00) are too close. Distance: 0.4700003
+Interactable at pos (46.40, 6.20, 0.00) and one at pos (46.40, 5.72, 0.00) are too close. Distance: 0.48
+Interactable at pos (48.01, 6.20, 0.00) and one at pos (48.01, 5.72, 0.00) are too close. Distance: 0.48
+Interactable at pos (46.40, 5.72, 0.00) and one at pos (46.40, 5.28, 0.00) are too close. Distance: 0.4399996
+Interactable at pos (48.01, 5.72, 0.00) and one at pos (48.01, 5.28, 0.00) are too close. Distance: 0.4399996
+Interactable at pos (47.22, 6.67, 0.00) and one at pos (47.22, 6.20, 0.00) are too close. Distance: 0.4700003
+Interactable at pos (47.22, 6.20, 0.00) and one at pos (47.22, 5.72, 0.00) are too close. Distance: 0.48
+Interactable at pos (47.22, 5.72, 0.00) and one at pos (47.22, 5.28, 0.00) are too close. Distance: 0.4399996
+Interactable at pos (73.60, 4.18, 0.00) and one at pos (74.05, 4.18, 0.00) are too close. Distance: 0.4500046
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
